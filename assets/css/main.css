@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-wrapper {
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  height: 600px;
+  width: 1200px;
+}
+
+.grid div {
+  border: 1px solid lightgrey;
+  flex-grow: 1;
+  height: 10%;
+  width: 5%;
+}
+
+.danger {
+  background-image: url('https://cdn.discordapp.com/emojis/847206715493842974.gif?size=240&quality=lossless');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.snake {
+  background-image: url('https://cdn.discordapp.com/attachments/791636167304151071/966788935877554216/gif_2.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.tail {
+  background-image: url('https://cdn.discordapp.com/attachments/791636167304151071/966788935877554216/gif_2.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.food {
+  background-image: url('https://cdn.discordapp.com/emojis/847145342821728306.gif?size=240&quality=lossless');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.speed {
+  background-image: url('https://cdn.discordapp.com/emojis/847206713068355615.gif?size=240&quality=lossless');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.angel {
+  background-image: url('https://cdn.discordapp.com/emojis/847206714301349978.gif?size=240&quality=lossless');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.music {
+  background-image: url('https://cdn.discordapp.com/emojis/847206713336791100.gif?size=240&quality=lossless');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.bonus {
+  background-image: url('https://cdn.discordapp.com/emojis/847206715351236608.gif?size=240&quality=lossless');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.stage {
+  background-image: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+
+.gameEl {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+
